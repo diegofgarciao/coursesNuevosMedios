@@ -1,0 +1,23 @@
+<div>
+    <h1>Detalles del {{nameDetail}}</h1><br>
+    <div class="container border border-primary" *ngFor="let contenido of contenidos">
+        <div class="row">
+            <div class="col-sm-8"><b>Descripcion del modulo:</b><br>
+                <p>{{contenido.descripcionModulo}}</p>
+            </div>
+            <div class="col-sm-4"><img width="200" height="200" src="{{contenido.imagenModulo}}"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm"><b>Nombre:</b><br>
+                <p>{{contenido.modulo}}</p>
+            </div>
+            <div class="col-sm"><b>Duracion del modulo:</b><br>
+                <p>{{contenido.duracionModulo}}</p>
+            </div>
+            <div class="col-sm"><b>Profesor del modulo: </b>
+                <p>{{contenido.profesorModulo}}</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>

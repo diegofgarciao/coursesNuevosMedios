@@ -1,0 +1,11 @@
+.container {
+    margin-top: 0 !important;
+}
+
+.row {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    align-items: center;
+}
